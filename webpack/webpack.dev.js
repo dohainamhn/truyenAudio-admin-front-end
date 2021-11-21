@@ -1,6 +1,6 @@
 const path = require('path');
 const rootDir = path.resolve(process.cwd());
-const buildPath = path.resolve(rootDir, 'dist');
+const buildPath = path.resolve(rootDir, 'build');
 const { merge } = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const common = require('./webpack.common');
