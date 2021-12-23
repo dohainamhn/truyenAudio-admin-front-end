@@ -20,7 +20,7 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.tsx?$/,
-        use: "babel-loader",
+        use: "ts-loader",
         exclude: /node_modules/,
       },
       {
